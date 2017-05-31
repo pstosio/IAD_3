@@ -10,13 +10,7 @@
         Title="MainWindow" Height="791.4" Width="1223.1">
     <Grid>
         <DVC:Chart Name="Voronoi">
-            <DVC:Chart.Series>
-                <DVC:ScatterSeries Title="Points1" IndependentValueBinding="{Binding Path=Key}" DependentValueBinding="{Binding Path=Value}"/>
-                <DVC:ScatterSeries Title="Points2" IndependentValueBinding="{Binding Path=Key}" DependentValueBinding="{Binding Path=Value}"/>
-                <DVC:ScatterSeries Title="Points3" IndependentValueBinding="{Binding Path=Key}" DependentValueBinding="{Binding Path=Value}"/>
-                <DVC:ScatterSeries Title="Points4" IndependentValueBinding="{Binding Path=Key}" DependentValueBinding="{Binding Path=Value}"/>
-                <DVC:ScatterSeries Title="Clusters" IndependentValueBinding="{Binding Path=Key}" DependentValueBinding="{Binding Path=Value}"/>
-            </DVC:Chart.Series>
+
         </DVC:Chart>
     </Grid>
 </Window>

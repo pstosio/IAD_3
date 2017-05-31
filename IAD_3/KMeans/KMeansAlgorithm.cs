@@ -15,7 +15,6 @@ namespace IAD_3
         public int StartAlgorithm(ref List<Point> points, ref List<Point> clusters, int counterStop = 100)
         {
             int counter = 0;
-
             while (counter < counterStop)
             {
                 this.RememberTheLastPointLocation(clusters);
