@@ -58,6 +58,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Experiments\Experiment2.cs" />
+    <Compile Include="SOM- Kohonen\Map.cs" />
+    <Compile Include="SOM- Kohonen\Neuron.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
